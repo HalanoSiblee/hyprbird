@@ -38,8 +38,6 @@ void sdlmoth(){
 void onNewWindow(void* self, std::any data) {
     // data is guaranteed
     auto* const PWINDOW = std::any_cast<CWindow*>(data);
-
-    //HyprlandAPI::addWindowDecoration(PHANDLE, PWINDOW, std::make_unique<CBordersPlusPlus>(PWINDOW));
     sdlmoth();
 }
 
